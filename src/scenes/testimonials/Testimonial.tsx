@@ -21,7 +21,7 @@ const Testimonial = ({ name, image, title, testimonial }: Props) => {
       viewport={{ once: true, amount: 0.5 }}
       transition={{ duration: 0.4 }}
       variants={childVariant}
-      className="mb-12 md:mb-0 mx-8"
+      className="mb-12 md:mb-0 mx-8 mt-8"
     >
       <div className="mb-6 flex justify-center">
         <img
