@@ -1,27 +1,49 @@
-# React + TypeScript + Vite
+# Gym App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a gym application developed using React, Typescript, Tailwind CSS, framer-motion for animations and react-hook-form for form management. It follows Airbnb's linting rules.
 
-Currently, two official plugins are available:
+## Purpose
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The primary objective of this project is to create a website for a gym, enabling users to explore different gym features, classes, testimonials, and contact information. The focus is on providing a seamless user experience and showcasing the gym's offerings.
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Home: Introduces the gym, its services, and the benefits of joining.
+- Benefits: Highlights the advantages of joining the gym.
+- Our Classes: Showcases the various classes available at the gym.
+- Testimonials: Displays feedback and experiences shared by gym members.
+- Contact Us: Provides a form to connect with the gym.
 
-- Configure the top-level `parserOptions` property like this:
+## Tech Stack
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- React: Framework for building the UI components.
+- TypeScript: Adds static typing to JavaScript for better scalability and code maintenance.
+- Tailwind CSS: Utility-first CSS framework for styling.
+- Framer Motion: Library for adding animations to React components.
+- React Hook Form: Library for managing forms in React applications.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Usage
+
+To run this project locally:
+
+1. Clone the repository.
+2. Install dependencies using `pnpm install`.
+3. Start the development server using `pnpm dev`.
+
+## Credits
+
+This project was created by Ed Roh to showcase the features and capabilities of a modern gym website.
+
+## License
+
+This project is licensed under the MIT License.
+
+## Screenshots
+
+#### Desktop View
+![Desktop Home Page](<Capture d'écran 2023-11-20 200925.png>)
+#### Tablet View
+![Tablet View](<Capture d'écran 2023-11-20 200542.png>)
+#### Mobile View
+![Mobile View](<Capture d'écran 2023-11-20 195458.png>)
