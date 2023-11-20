@@ -6,6 +6,7 @@ import Testimonial from './scenes/testimonials';
 import ContactUs from './scenes/contactUs';
 import { useEffect, useState } from 'react';
 import { SelectedPage } from './shared/types';
+import Footer from './scenes/footer';
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <OurClasses setSelectedPage={setSelectedPage} />
       <Testimonial setSelectedPage={setSelectedPage}/>
       <ContactUs setSelectedPage={setSelectedPage}/>
+      <Footer />
     </div> 
   );
 }
